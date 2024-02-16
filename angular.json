@@ -21,6 +21,8 @@
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
+              "globalthis/auto",
+              "core-js/stable/queue-microtask",
               "zone.js"
             ],
             "tsConfig": "tsconfig.app.json",
